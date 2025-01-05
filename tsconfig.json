@@ -1,0 +1,44 @@
+// {
+//     "compilerOptions": {
+//       "target": "es5",
+//       "lib": [
+//         "dom",
+//         "dom.iterable",
+//         "esnext"
+//       ],
+//       "allowJs": true,
+//       "skipLibCheck": true,
+//       "esModuleInterop": true,
+//       "allowSyntheticDefaultImports": true,
+//       "strict": true,
+//       "forceConsistentCasingInFileNames": true,
+//       "noFallthroughCasesInSwitch": true,
+//       "module": "esnext",
+//       "moduleResolution": "node",
+//       "resolveJsonModule": true,
+//       "isolatedModules": true,
+//       "noEmit": true,
+//       "jsx": "react-jsx"
+//     },
+//     "include": [
+//       "src"
+//     ]
+//   }
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./",
+    "paths": {
+      "@redux/*": ["src/redux/*"],
+      "@components/*": ["src/components/*"],
+      "@types/*": ["src/types/*"]
+    }
+  },
+  "include": ["src"]
+}
